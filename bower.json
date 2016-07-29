@@ -1,0 +1,20 @@
+{
+  "name": "grunt-foundation-sites6",
+  "description": "Proyecto plantilla",
+  "main": "Gruntfile.js",
+  "authors": [
+    "robfree <robertoserrano83@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.1"
+  }
+}
