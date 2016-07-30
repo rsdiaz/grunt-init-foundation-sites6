@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Load package.json
     pkg: grunt.file.readJSON('package.json'),
-    // Watch Configuration
+    // Configuration watch task
     watch: {
     	grunt: {
     		files: ["Gruntfile.js"],
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     		tasks: ['buildJs']
     	}
     },
-    // Sass Configuration
+    // Configuration Sass task
     sass: {
       options: {
         loadPath: ['bower_components/foundation-sites/scss']
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
         }]
       }
     },
-    // Configurate autoprefixer
+    // Configuration autoprefixer task
     postcss: {
         options: {
             map: true,
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
             src: 'dist/assets/css/*.css'
         }
     },
-    // Concatenate Configuration
+    // Configuration concat
     concat: {
       options: {
         separator: ';'
@@ -73,7 +73,7 @@ module.exports = function(grunt) {
         dest: 'dist/assets/js/script.js'
       }
     },
-    // Babel Configuration
+    // Configuration Babel task
     babel: {
       options: {
         sourceMap: true,
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    // Uglify Configuration
+    // Configuration uglify task
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -93,6 +93,7 @@ module.exports = function(grunt) {
     	dist: {
     		files: {
     			'dist/assets/js/jquery.min.js': ['bower_components/jquery/dist/jquery.js'],
+    			'dist/assets/js/what-input.min.js': ['bower_components/what-input/what-input.js'],
     			'dist/assets/js/script.min.js': ['dist/assets/js/script.js']
     		}
     	}

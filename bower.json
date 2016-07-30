@@ -1,6 +1,6 @@
 {
-  "name": "grunt-foundation-sites6",
-  "description": "Proyecto plantilla",
+  "name": "grunt-init-foundation-sites6",
+  "description": "Start Front-End template for Foundation Sites 6",
   "main": "Gruntfile.js",
   "authors": [
     "robfree <robertoserrano83@gmail.com>"
