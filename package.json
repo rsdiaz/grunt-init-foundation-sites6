@@ -1,6 +1,6 @@
 {
   "name": "grunt-init-foundation-sites6",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Roberto Serrano Diaz-Grande",
   "description": "Start project for foundation sites 6",
   "license": "MIT",
@@ -29,8 +29,8 @@
     "url": "https://github.com/rsdiaz/grunt-init-foundation-sites6/issues"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.7",
-    "babel-preset-es2015": "^6.9.0",
+    "autoprefixer": "^6.4.1",
+    "babel-preset-es2015": "^6.14.0",
     "grunt": "^1.0.1",
     "grunt-babel": "^6.0.0",
     "grunt-contrib-concat": "^1.0.1",
